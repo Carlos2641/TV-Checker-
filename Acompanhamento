@@ -5,7 +5,6 @@ TV Checker.
         Objectivos da semana:
         
            
-        
                 - Rever principios e formas inovadoras de implemntar apis e codigo na nossa aplicação 
                 - Completar 2 topicos do que falta fazer da aplicação:
                 - Completar os aspectos visuais de todas as activities
@@ -41,7 +40,9 @@ TV Checker.
                     - Criação de cenários de utilização da nossa aplicação.
                     - Planeamento da proxima reunião.
                     - Depois com o tempo restante começamos a desenvolver as activities da aplicação.
+                    
                     - Distribuição de trabalhos: ( all of this work is about coding not design anymore)
+                    
                         - Programar a Search Activity e novo Layout da Search - Patricia Costa
                         - Programar Series Details e o novo Layout da Series Details - Guilherme Doutor
                         - Programar Definicoes e o novo Layout das Definicoes - João Caeiro
