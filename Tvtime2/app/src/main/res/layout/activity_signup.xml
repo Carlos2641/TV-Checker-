@@ -48,7 +48,7 @@
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
         android:layout_marginBottom="8dp"
-        android:onClick="gologin"
+        android:onClick="login"
         app:layout_constraintBottom_toBottomOf="@+id/homeBar"
         app:layout_constraintEnd_toEndOf="@+id/homeBar"
         app:layout_constraintTop_toTopOf="parent"
