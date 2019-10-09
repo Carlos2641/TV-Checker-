@@ -66,9 +66,10 @@
 
     <ImageView
         android:id="@+id/imageView25"
-        android:layout_width="35dp"
-        android:layout_height="26dp"
+        android:layout_width="36dp"
+        android:layout_height="35dp"
         android:layout_marginTop="44dp"
+        android:onClick="search"
         app:layout_constraintBottom_toBottomOf="@+id/editText2"
         app:layout_constraintEnd_toStartOf="@+id/editText2"
         app:layout_constraintHorizontal_bias="0.709"
@@ -116,7 +117,7 @@
     <ListView
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintBottom_toTopOf="@+id/imageView19"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

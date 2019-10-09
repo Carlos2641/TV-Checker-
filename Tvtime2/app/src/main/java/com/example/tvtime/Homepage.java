@@ -33,4 +33,6 @@ public class Homepage extends AppCompatActivity {
     public void defenicoes(View view) { Definicoes.startActivity(this);}
 
     public void vistos(View view) { Watched.startActivity(this);}
+
+    public void search(View view) { Search.startActivity(this);}
 }
