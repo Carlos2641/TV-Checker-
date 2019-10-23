@@ -21,4 +21,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void signup(View view) { Signup.startActivity(this); }
+
+    public void login(View view) {Homepage.startActivity(this);
+    }
 }
