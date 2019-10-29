@@ -6,20 +6,42 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.GridView;
+import android.widget.Toast;
 
 public class Homepage extends AppCompatActivity {
 
+    String[] numberWord ={"One","Two","Three","Four"};
+    int[] numberImage={R.drawable.blacklist,R.drawable.suits,R.drawable.gravityfalls,R.drawable.vikings};
+
+
     public static void startActivity(Context context) {
+        GridView gridView;
         Intent intent = new Intent(context, Homepage.class);
         context.startActivity(intent);
+
+
     }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_homepage);
+        gridView= findViewById(R.id.grid_view);
 
-        
+        HomeAdapter adapter = new HomeAdapter (Homepage.this, numberWord, numberImage);
+        grindView.setAdapter(adapter);
+
+        gridView.setOnItemClickListener(new AdapterView.OnItemClickListener(){
+            @Override
+                    public void onItemClick(AdapterView<?> parent, View view, int positon, long id) {
+                Toast.makeText(getApplicationContext(),"You touched this screen omg!"+numberWord[+positon],Toast.LENGTH_SHORT).show();
+            }
+            });
+        }
+
     }
 
     public void homepage(View view) {

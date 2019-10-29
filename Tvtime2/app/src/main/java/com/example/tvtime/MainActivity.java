@@ -6,8 +6,10 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.GridView;
 
 public class MainActivity extends AppCompatActivity {
+    GridView gridView;
 
     public static void startActivity(Context context) {
         Intent intent = new Intent(context, MainActivity.class);
