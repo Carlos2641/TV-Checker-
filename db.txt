@@ -1,3 +1,4 @@
+
 {
 
 	"users":[
@@ -213,4 +214,100 @@
 ]
 
 
+
+	"categorias":[
+	{
+	"id_categoria":1,
+	"nome_categoria":"Drama"
+	},
+
+	
+	{
+	"id_categoria":2,
+	"nome_categoria":"Crime"
+	},	
+
+	
+	{
+	"id_categoria":3,
+	"nome_categoria":"Mistério"
+	},
+
+
+	{
+	"id_categoria":4,
+	"nome_categoria":"Comédia"
+	},
+
+	{
+	"id_categoria":5,
+	"nome_categoria":"Aventura"
+	},
+
+
+	{
+	"id_categoria":6,
+	"nome_categoria":"Ficção Científica"
+	},
+
+
+	{
+	"id_categoria":7,
+	"nome_categoria":"Ação"
+	},
+
+
+	{
+	"id_categoria":8,
+	"nome_categoria":"Fantasia"
+	},
+
+	
+	{
+	"id_categoria":9,
+	"nome_categoria":"Animação"
+	},
+
+	
+	{
+	"id_categoria":10,
+	"nome_categoria":"Thriller"
+	},
+
+	
+	{
+	"id_categoria":11,
+	"nome_categoria":"Suspance"
+	},
+
+
+	{
+	"id_categoria":12,
+	"nome_categoria":"Reality Show"
+	},
+
+
+{
+	"id_categoria":13,
+	"nome_categoria":"Família"
+	},
+
+
+	{
+	"id_categoria":14,
+	"nome_categoria":"Romance"
+	},
+
+
+	{
+	"id_categoria":15,
+	"nome_categoria":"Terror"
+	},
+
+	{
+	"id_categoria":16,
+	"nome_categoria":"Infantil"
+	},
+
+]
 }
