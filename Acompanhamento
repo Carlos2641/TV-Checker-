@@ -92,11 +92,19 @@ TV Checker.
                 - Implementar a biblioteca retrofit na aplicação e desenvolver a parte da aplicação que envolva o consumo de API's, depois de reteficar e acabar os funcionamentos basicos da aplicação
             
              Dia de reunião  23/10:
-             
-                Distribuição do trabalho :
                 
-                    -
-                    -
-                    -
+                    - Concluimos que deviamos começar a desenvolver a parte mais relacionada com o fetch de dados a base de dados e a API o mais cedo possivel, e que dentro de 2 ou 3 semanas realizar o back office.
             
+         7º Semana 28/10 - 3/11:
+         
+            Objectivos da semana:
+                
+                - Concluir a API que iremos usar
+                - Começar a implementar codigo para o uso da API na aplicação
+                
+            Dia de reunião 31-10:
+           
+                    - Concluir a API - Patricia Costa
+                    - Concluir a HomePage - Carlos Rosa
+                    - Concluir a activity dos vistos - João Caeiro
         
