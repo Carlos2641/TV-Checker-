@@ -12,17 +12,17 @@ import android.widget.Toast;
 
 public class Homepage extends AppCompatActivity {
 
-    String[] numberWord ={"One","Two","Three","Four"};
-    int[] numberImage={R.drawable.blacklist,R.drawable.suits,R.drawable.gravityfalls,R.drawable.vikings};
+
 
 
     public static void startActivity(Context context) {
-        GridView gridView;
         Intent intent = new Intent(context, Homepage.class);
         context.startActivity(intent);
-
-
     }
+
+    GridView gridView;
+    String[] numberWord ={"One","Two","Three","Four"};
+    int[] numberImage={R.drawable.blacklist,R.drawable.suits,R.drawable.gravityfalls,R.drawable.vikings};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,7 +32,8 @@ public class Homepage extends AppCompatActivity {
         gridView= findViewById(R.id.grid_view);
 
         HomeAdapter adapter = new HomeAdapter (Homepage.this, numberWord, numberImage);
-        grindView.setAdapter(adapter);
+
+        gridView.setAdapter(adapter);
 
         gridView.setOnItemClickListener(new AdapterView.OnItemClickListener(){
             @Override
@@ -42,7 +43,7 @@ public class Homepage extends AppCompatActivity {
             });
         }
 
-    }
+
 
     public void homepage(View view) {
         Homepage.startActivity(this);
