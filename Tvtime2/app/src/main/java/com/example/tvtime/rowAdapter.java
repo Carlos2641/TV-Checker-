@@ -13,12 +13,12 @@ import java.util.List;
 
 public class rowAdapter extends BaseAdapter {
 
-    private List<Series> seriesList;
+   // private List<Series> seriesList;
     private Context context;
 
     public rowAdapter (Context context){
         this.context = context;
-        this.seriesList = new ArrayList<>();
+       // this.seriesList = new ArrayList<>();
     }
 
     @Override
