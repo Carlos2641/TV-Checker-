@@ -19,6 +19,7 @@
   <component name="ProjectId" id="1TYsF9YrBsWNLGPqLrTgiq70tHK" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="D:/xampp/htdocs/blog" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -43,6 +44,8 @@
       <option name="presentableId" value="Default" />
       <updated>1573648261270</updated>
       <workItem from="1573648283067" duration="1953000" />
+      <workItem from="1574166505168" duration="447000" />
+      <workItem from="1574176095417" duration="412000" />
     </task>
     <servers />
   </component>
@@ -54,7 +57,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
