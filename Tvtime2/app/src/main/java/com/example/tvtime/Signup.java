@@ -57,7 +57,6 @@ public class Signup extends AppCompatActivity {
 
 
         MainActivity.startActivity(this);
-
         finish();
     }
 }
